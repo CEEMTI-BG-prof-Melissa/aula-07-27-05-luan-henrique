@@ -1,5 +1,5 @@
 input[required]{
-  border: red;
+  border: red solid 1px;
 }
 
 input[type = "password"]{
