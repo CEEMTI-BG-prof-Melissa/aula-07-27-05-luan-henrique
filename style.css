@@ -1,27 +1,76 @@
-input[required]{
-  border: red solid 1px;
+div{
+  padding: 50px;
+  margin: 10px;
 }
 
-input[type= "password"]{
-  background-color: ligth gray;
+.borda{
+  border: 10px dashed black;
 }
 
-a [href^= "https"]{
-  color: green;
+#bloco1{
+  background-color: pink;
 }
 
-a [href$= ".pdf"]{
-  color: pink;
+#bloco2{
+  background-image: url('messi.jpg');
+  background-repeat: repeat;
 }
 
-a [href*= "exemplo"]{
-  font-weigth: bold;
+#bloco3{
+  background-image: url('messi.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-div[class~= "ativo"]{
-  color: ligth blue;
+#bloco4{
+  background-image: url('messi.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-p[lang|= "pt"]{
-  color: green;
+#bloco5{
+  background-image: url('messi.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#bloco6{
+  background-image: url('messi.jpg');
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+}
+
+#bloco7{
+  background-image: url('messi.jpg');
+  background-repeat: no-repeat;
+  background-origin: border-box;
+}
+
+#bloco8{
+  background-image: url('messi.jpg');
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+
+#bloco9{
+  background-image: url('messi.jpg');
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+}
+
+#bloco10{
+  background-image: url('messi.jpg');
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+
+#bloco11{
+  background-image: url('messi.jpg');
+  background-repeat: no-repeat;
+  background-clip: content-box;
+}
+
+#bloco12{
+  background: lightblue url('messi.jpg') center/cover no-repeat;
 }
